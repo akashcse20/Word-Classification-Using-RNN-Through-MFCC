@@ -210,7 +210,7 @@ The training process runs for up to **50 epochs** with an early stopping mechani
 ## 📈 Model Evaluation
 ```
 This script calculates the **precision**, **recall**, and **F1-score**, and generates a detailed **classification report**.
-
+```
 Accuracy: 93.33%
 Precision: 95.38%
 Recall: 93.33%
@@ -237,7 +237,7 @@ F1 Score: 93.52%
 ---
 
 ### Confusion Matrix
-
+```
 A **confusion matrix** is a great tool to visualize how well the model performs on each class:
 
 ![Image](https://github.com/user-attachments/assets/7641f423-42e4-462e-9452-30b3aa700669)
@@ -247,7 +247,7 @@ This visualizes how many predictions were correct for each class and where the m
 
 
 ## 📜 License & References
-
+```
 - **MIT License**: This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 - **Librosa**: For extracting **MFCC features** from audio data.
 - **TensorFlow**: For building and training the **RNN-based model**.

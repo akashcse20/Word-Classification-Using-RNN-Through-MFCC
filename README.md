@@ -210,14 +210,12 @@ The training process runs for up to **50 epochs** with an early stopping mechani
 
 This script calculates the **precision**, **recall**, and **F1-score**, and generates a detailed **classification report**.
 
+```
 Accuracy: 93.33%
-
 Precision: 95.38%
-
 Recall: 93.33%
-
 F1 Score: 93.52%
-
+```
 ---
 **Classification Report:**
 ```

@@ -186,7 +186,7 @@ This model is trained on the **MFCC features** and is capable of recognizing wor
 ## 🎯 Training the Model
 
 ### Early Stopping
-
+```
 **Early stopping** is used to halt training if the model’s validation loss stops improving for a set number of epochs:
 
 ```python
@@ -237,7 +237,7 @@ F1 Score: 93.52%
 ---
 
 ### Confusion Matrix
-```
+
 A **confusion matrix** is a great tool to visualize how well the model performs on each class:
 ```
 ![Image](https://github.com/user-attachments/assets/7641f423-42e4-462e-9452-30b3aa700669)

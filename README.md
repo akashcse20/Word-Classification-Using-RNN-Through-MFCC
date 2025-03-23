@@ -217,6 +217,7 @@ Recall: 93.33%
 F1 Score: 93.52%
 
 **Classification Report:**
+```
                  precision    recall  f1-score   support
 
      class_A       1.00      1.00      1.00         2
@@ -236,22 +237,19 @@ F1 Score: 93.52%
 ---
 
 ### Confusion Matrix
-
+```
 A **confusion matrix** is a great tool to visualize how well the model performs on each class:
 
 ![Image](https://github.com/user-attachments/assets/7641f423-42e4-462e-9452-30b3aa700669)
-```
 
 This visualizes how many predictions were correct for each class and where the model made errors.
-
+```
 
 
 ## 📜 License & References
-
+```
 - **MIT License**: This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-- **Librosa**: For extracting MFCC features from audio data.
-- **TensorFlow**: For building and training the RNN-based model.
-- **scikit-learn**: For preprocessing, evaluating the model, and generating metrics.
-- **Matplotlib & Seaborn**: For visualizing data and evaluation results.
-
----
+- **Librosa**: For extracting **MFCC features** from audio data.
+- **TensorFlow**: For building and training the **RNN-based model**.
+- **scikit-learn**: For **data preprocessing**, **model evaluation**, and **metric generation**.
+- **Matplotlib & Seaborn**: For **visualizing data** and **evaluation results**.

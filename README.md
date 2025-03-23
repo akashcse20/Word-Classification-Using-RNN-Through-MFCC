@@ -207,10 +207,8 @@ The training process runs for up to **50 epochs** with an early stopping mechani
 ---
 
 ## 📈 Model Evaluation
-
-This script calculates the **precision**, **recall**, and **F1-score**, and generates a detailed **classification report**.
-
 ```
+This script calculates the **precision**, **recall**, and **F1-score**, and generates a detailed **classification report**.
 Accuracy: 93.33%
 Precision: 95.38%
 Recall: 93.33%
@@ -235,6 +233,7 @@ F1 Score: 93.52%
        macro avg       0.97      0.96      0.96        60   
     weighted avg       0.95      0.93      0.94        60
 ```
+
 
 ### Confusion Matrix
 

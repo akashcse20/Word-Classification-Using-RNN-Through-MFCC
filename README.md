@@ -209,31 +209,14 @@ The training process runs for up to **50 epochs** with an early stopping mechani
 
 ## 📈 Model Evaluation
 
-Once the model is trained, its performance needs to be evaluated using various metrics:
-
-- **Accuracy**: Measures how often the model predicts the correct class.
-- **Precision, Recall, and F1-score**: Provide deeper insights into model performance, especially for imbalanced classes.
-
-```python
-from sklearn.metrics import precision_recall_fscore_support, classification_report
-
-# Predictions
-test_predictions = model.predict(X_test[:, :, np.newaxis])
-y_pred = np.argmax(test_predictions, axis=1)
-
-# Calculate evaluation metrics
-precision, recall, f1_score, _ = precision_recall_fscore_support(y_test, y_pred, average='weighted')
-
-# Classification Report
-classification_rep = classification_report(y_test, y_pred, target_names=label_encoder.classes_)
-```
 This script calculates the **precision**, **recall**, and **F1-score**, and generates a detailed **classification report**.
-2/2 [==============================] - 1s 652ms/step
+
 Accuracy: 93.33%
 Precision: 95.38%
 Recall: 93.33%
 F1 Score: 93.52%
-Classification Report:
+
+**Classification Report:**
                precision    recall  f1-score   support
 
      class_A       1.00      1.00      1.00         2
@@ -272,5 +255,3 @@ This visualizes how many predictions were correct for each class and where the m
 - **Matplotlib & Seaborn**: For visualizing data and evaluation results.
 
 ---
-
-This README now provides a more detailed explanation of the steps, techniques, and processes involved in the **Word Classification Using RNN Through MFCC** project. It covers data preprocessing, model building, training, evaluation, and visualization while keeping a professional and well-documented approach.

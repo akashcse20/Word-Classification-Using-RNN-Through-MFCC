@@ -215,7 +215,7 @@ Recall: 93.33%
 F1 Score: 93.52%
 
 **Classification Report:**
-
+```
                  precision    recall  f1-score   support
 
      class_A       1.00      1.00      1.00         2
@@ -232,19 +232,19 @@ F1 Score: 93.52%
         accuracy                           0.93        60
        macro avg       0.97      0.96      0.96        60   
     weighted avg       0.95      0.93      0.94        60
-
+```
 
 
 ### Confusion Matrix
-```
+
 A **confusion matrix** is a great tool to visualize how well the model performs on each class:
 
 ![Image](https://github.com/user-attachments/assets/7641f423-42e4-462e-9452-30b3aa700669)
 
 This visualizes how many predictions were correct for each class and where the model made errors.
 
----
-```
+
+
 ### 📜 License & References
 
 - **MIT License**: This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.

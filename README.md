@@ -196,7 +196,7 @@ early_stopping = EarlyStopping(monitor='val_loss', patience=10, restore_best_wei
 This prevents the model from overfitting by stopping training at the optimal point.
 
 ### Training the Model
-
+```
 The model is trained using the **Adam optimizer** with a **learning rate** of 0.001 and the **sparse categorical cross-entropy loss** function:
 
 ```python
@@ -239,14 +239,14 @@ F1 Score: 93.52%
 ### Confusion Matrix
 ```
 A **confusion matrix** is a great tool to visualize how well the model performs on each class:
-
+```
 ![Image](https://github.com/user-attachments/assets/7641f423-42e4-462e-9452-30b3aa700669)
 
 This visualizes how many predictions were correct for each class and where the model made errors.
 ```
 
 
-## 📜 License & References
+### 📜 License & References
 ```
 - **MIT License**: This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 - **Librosa**: For extracting **MFCC features** from audio data.

@@ -218,7 +218,6 @@ F1 Score: 93.52%
 
 **Classification Report:**
 ```
-```
                  precision    recall  f1-score   support
 
      class_A       1.00      1.00      1.00         2
@@ -250,9 +249,7 @@ This visualizes how many predictions were correct for each class and where the m
 ### 📜 License & References
 
 - **MIT License**: This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-- **Librosa**: For extracting **MFCC features** from
-
- audio files.
+- **Librosa**: For extracting **MFCC features** from audio files.
 - **TensorFlow**: For building and training the model.
 - **scikit-learn**: For data preprocessing and evaluation.
 
